@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<title>I`sEng</title>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<img src="img/working_engine.gif" class="banner">
+			<a href="#" class="logo"><img src="img/logo.png"></a>
+			<nav>
+				<ul>
+					<li><a href="indexes/about_us.html">About us</a></li>
+					<li><a href="indexes/our_service.html">Our service</a></li>
+					<li><a href="indexes/products.html">Products</a></li>
+					<li><a href="indexes/responses.html">Responses</a></li>
+					<li><a href="indexes/contact_us.html">Contact us</a></li>
+					<li><a href="indexes/location.html">Our location</a></li>
+				</ul>
+			</nav>
+			<a href="#h" class="btn" id="open"><div><p>Sign In</p></div></a>
+		</header>
+		<div class="opacity">
+			<section>
+				<div class="container">
+					<a href="#h" class="close" id="close"><div class="first_line"></div><div class="second_line"></div></a>
+					<div class="user sign_in">
+						<div class="img_x"><img src="img/sign_in.png"></div>
+						<div class="form_x">
+							<form>
+								<h2>Увійти</h2>
+								<input type="text" placeholder="Нікнейм">
+								<input type="password" placeholder="Пароль">
+								<input type="submit" value="Увійти">
+								<p class="sign_up">Не маєтете аккаунта? <a href="#h" onclick="toggleForm();">Зареєструватися.</a></p>
+							</form>
+						</div>
+					</div>
+		
+					<div class="user sign_up_x">
+						
+						<div class="form_x">
+							<form>
+								<h2>Свторити профіль</h2>
+								<input type="text" placeholder="Нікнейм">
+								<input type="text" placeholder="Емейл">
+								<input type="password" placeholder="Новий пароль">
+								<input type="password" placeholder="Підтвердіть пароль">
+								<input type="submit" value="Зареєструватися">
+								<p class="sign_up">Маєте аккаунт? <a href="#h" onclick="toggleForm();">Увійти.</a></p>
+							</form>
+						</div>
+						<div class="img_x"><img src="img/sign_up.png"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="img_header_back"><img src="img/header.jpg"></div>
+		<div class="cont_main" id="h">
+			<h1>About IVEng - Igor`s Vlad`s Engines</h1>
+			<div class="phrase">
+				<div class="lines">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="text">	
+					<img class="one" src="img/quotes.png">
+					<p>Ми були створені для того, щоб Вас вражати нашою якістю!</p>	
+					<img class="two" src="img/quotes.png">
+				</div>
+				<div class="author">
+					<div class="line1"></div>
+					<p>Ігор Пущал - Ко-засновник <span style="color: #FF9933; text-transform: uppercase; font-weight: 600;">IVEng</span></p>
+					<div class="line2"></div>
+				</div>
+			</div>
+			<div class="about_company" id="about_us">
+				<div class="container">
+					<div class="block_storage">	
+						<div class="text">	
+							<h2>Кількість двигунів</h2>
+							<p>На наших складах є безліч двигунів різних типів і якостей. Від б\у до тих, які ми купляємо у виробників. 	Також є і ексклюзивні, по типу Двигуна від Bugatti Veyron, Ferarri Spider. Це все Ви зможете знайти у нашому каталогові. Це все Ви можете побачити у нашому каталозі, посилання на нього знайдете чи в меню, чи трохи знизу!</p>
+						</div>
+						<img src="img/engine.png">
+					</div>
+					<img class="wave" src="img/waves.png">
+					<img src="img/storage.png" class="storage">
+				</div>
+				<div class="container">
+					<img src="img/service.png" class="service">
+					<img class="wave" src="img/waves.png">
+					<div class="block_service">
+						<div class="text">
+							<h2>Наш сервіс у м.Вінниця</h2>
+							<p>На сьогодні ми маємо дуже прекрасний сервіс, де Ви зможете не тільки знайти чудових робітників для спілкування, але й безплатну установку його після покупки у нашому магазині. Але якщо "двіжок" покупався не у нас - установка за гроші. Загалом ми є тільки в 1 точці у Вінниці. Але є й хороша новина: безліч точок по всіій Україні!</p>
+						</div>
+						<img src="img/screw.png">
+					</div>
+				</div>
+			</div>
+			<div class="products" id="products">
+				<h1>Наші товари</h1>
+				<section>
+    				<div class="swiper mySwiper">
+    				  	<div class="swiper-wrapper">
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/RB26DETT.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/RB26DETT2.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>RB-26DETT (2002р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Nissan GTR R34. <br><b>Історія двигуна:</b> Було встановлено модифікаціюна двигун. Але власнику авто розтрощили задню частину автомобіля. Ремонту не підлягалось. Томубуло прийняте рішення продати двигун. Автомобіль використовувався тільки на зйомках. Пересувавсяна евакуаторі.<br><b>Кількість кінських сил</b> - 660.</p>
+    				  	  	  		<a href="#"><div class="one"><p>Подробиці</p><div></div></div></a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/4A-GZE.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/4A-GZE2.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>4A-GZE (2010р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Toyota Ae86. <br><b>Історія двигуна:</b> Пробіг двигуна 43.000км. Його використовували тільки для того, щоб по неділям за хлібом зїздити. Колишній власник був звичайним дідусем із Японії який жив в горі Фудзіяма. Модифікацій ніяких немає, двигун повністю стоковий.<br><b>Кількість кінських сил</b> - 140.</p>
+    				  	  	  		<a href="#"><div class="one"><p>Подробиці</p><div></div></div></a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/K4M.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/K4M2.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>K4M (2005р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Reno Duster. <br><b>Історія двигуна:</b> Пробіг двигуга 83.000км. Машина використовувалась в умовах бездоріжжя тобто в лісах, горах, полях, болота, сільська дорога. І в наслідок цього в двигуна зламаний колінчастий вал і болтіка одного нема. <br><b>Кількість кінських сил</b> - 157.</p>
+    				  	  	  		<a href="#"><div class="one"><p>Подробиці</p><div></div></div></a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/W16.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/W162.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>W16 (2012р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Bugatti Chiron SS. <br><b>Історія двигуна:</b> Кароче вона їхала і втарабанилась в ламбу і весь передок вбитий і ми просто спиздили мотор з місця аварії. Двигун не пошкоджений, весь удар прийшов на передню частину автомобіля. Але декілька деталей було замінено. Пробіг 10км.<br><b>Кількість кінських сил</b> - 1600.</p>
+    				  	  	  		<a href="#"><div class="one"><p>Подробиці</p><div></div></div></a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/Tipo F116.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/Tipo F1162.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>Tipo F116 (2004р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Ferari F116 Stradale. <br><b>Історія двигуна:</b> Власник авто рішив замінити даний двигун на V16 від Rolls-Royce. Наші експерти проти такого рішення, але що зроблено - то зроблено. Нам досталось найвкусніше. В нього він лежав на полу, без діла, тому продав нам.<br><b>Кількість кінських сил</b> - 541</p>
+    				  	  	  		<a href="#"><div class="one"><p>Подробиці</p><div></div></div></a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/L539.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/L5392.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>L539 (2008р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Lamborghini Aventador <br><b>Історія двигуна:</b> Було встановлено модифікаціюна двигун. Але власнику авто розтрощили задню частину автомобіля. Ремонту не підлягалось. Томубуло прийняте рішення продати двигун.<br><b>Кількість кінських сил</b> - 660.</p>
+    				  	  	  		<a href="#">
+    				  	  	  			<div class="one">
+    				  	  	  				<p>Подробиці</p>
+    				  	  	  				<div></div>
+    				  	  	  			</div>
+    				  	  	  		</a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/21116.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/211162.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>ВАЗ 21116 (1996р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від LADA 21116. <br><b>Історія двигуна:</b> Машиною володів якийсь волосатий чувак. На його каналі зараз близько 4млн підписників. Володів нею мало, сказав, що не сподобалася. Продав він нам його 6 років тому. У нас він доглядався, тому проблем не буде. Пробіг - 215.000 км.<br><b>Кількість кінських сил</b> - 98.</p>
+    				  	  	  		<a href="#">
+    				  	  	  			<div class="one">
+    				  	  	  				<p>Подробиці</p>
+    				  	  	  				<div></div>
+    				  	  	  			</div>
+    				  	  	  		</a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/SR20DET.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/SR20DET2.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>SR20DET (2003р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від Nissan GTR R34. <br><b>Історія двигуна:</b> Було встановлено модифікаціюна двигун. Але власнику авто розтрощили задню частину автомобіля. Ремонту не підлягалось. Томубуло прийняте рішення продати двигун. Автомобіль використовувався тільки на зйомках. Пересувавсяна евакуаторі.<br><b>Кількість кінських сил</b> - 660.</p>
+    				  	  	  		<a href="#">
+    				  	  	  			<div class="one">
+    				  	  	  				<p>Подробиці</p>
+    				  	  	  				<div></div>
+    				  	  	  			</div>
+    				  	  	  		</a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	  	<div class="swiper-slide">
+    				  	  	  	<div class="testimonialBox">
+    				  	  	  		<img src="img/BMW S14.png" class="engine">
+    				  	  	  		<div class="line2"></div>
+    				  	  	  		<img src="img/BMW S142.png" class="engine2">
+    				  	  	  		<div class="img_back"></div>
+    				  	  	  		<h2>BMW S14 (2005р.)</h2>
+    				  	  	  		<p class="description">Б\у двигун від BMW E34. <br><b>Історія двигуна:</b> Двигун був знятий з колекційної машини Е34 Януковича та переданий нам для продажу. Але потім сказали, що він їм не потрібен. Пробігу немає. Двигун як новий і підходить під будь-які свапи та модифікації. Має свою внутрішню прошивку.<br><b>Кількість кінських сил</b> - 134.</p>
+    				  	  	  		<a href="#">
+    				  	  	  			<div class="one">
+    				  	  	  				<p>Подробиці</p>
+    				  	  	  				<div></div>
+    				  	  	  			</div>
+    				  	  	  		</a>
+    				  	  	  	</div>
+    				  	  	</div>
+    				  	</div>
+    				</div>
+    			</section>
+			</div>
+			<div class="response" id="responses">
+				<h1 class="text">Відгуки</h1>
+				<div class="inside">
+					<div class="responses">
+						<div class="one">
+							<img src="img/circle.png" class="circle">
+							<h3>Account`s name</h3>
+							<span></span>
+							<p class="p_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+							<p class="p_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in... <a href="#">Read More</a></p>
+							
+							<p class="p_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation... <a href="#">Read More</a></p>
+						</div>
+						<div class="two">
+							<img src="img/circle.png" class="circle">
+							<h3>Account`s name</h3>
+							<span></span>
+							<p class="p_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+							<p class="p_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in... <a href="#">Read More</a></p>
+							
+							<p class="p_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation... <a href="#">Read More</a></p>
+						</div>
+						<div class="three">
+							<img src="img/circle.png" class="circle">
+							<h3>Account`s name</h3>
+							<span></span>
+							<p class="p_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+							<p class="p_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in... <a href="#">Read More</a></p>
+
+							<p class="p_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 	ad minim veniam, quis nostrud exercitation... <a href="#">Read More</a></p>
+						</div>
+					</div>
+					<a href="#">	
+						<div class="add_response">
+							<div class="one"></div>
+							<div class="two"></div>
+							<p>Залишити коментарій</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<h1 id="contact_us">Методи зв'язку з нами</h1>
+			<div class="contact_us">
+				<div class="classes">
+					<div class="social_net">
+						<div class="inst">
+							<div>
+								<img src="img/inst.png">
+								<img src="img/inst2.png">
+							</div>
+							<p>@website.html.css</p>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="face">
+							<div>
+								<img src="img/face.png">
+								<img src="img/face2.png">
+							</div>
+							<p>Igoran Baba</p>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="redit">
+							<div>
+								<img src="img/redit.png">
+								<img src="img/redit2.png">
+							</div>
+							<p>Igoranko#5432</p>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<a href='tel:+380686576777'>
+						<div class="phone_number">
+							<div class="one"></div>
+							<div class="two"></div>
+							<p>Зателефонувати</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="location" id="location">
+				<h1 class="text">Місце розташування</h1>
+				<div>
+					<div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.5363916865808!2d28.407285395748207!3d49.225551241707684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5c4226030a9d%3A0x9c91df33e7286b91!2z0KjQutC-0LvQsCDihJYxOA!5e0!3m2!1suk!2sua!4v1637613942090!5m2!1suk!2sua" width="100%" height="100%" style="border:0; margin: 0 auto;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<img class="wave" src="img/waves.png">
+					<span>
+						<h2>Школа №18</h2>
+						<p>Вулиця Келецька, 97, Вінниця, Вінницька область, 21000</p>
+					</span>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="text">
+				<h2>IEN - Emails</h2>
+				<p>- igorek12102004@gmail.com</p>
+				<p>- vlad28052005@gmail.com</p>
+				<p>- school18@gmail.com</p>
+				<p>All rights reserved by EpidemicSound</p>
+			</div>
+			<div class="text">
+				<h2>IEN - Numbers</h2>
+				<p>- +380686576777 - директор</p>
+				<p>- +380678346625 - зам директора</p>
+				<p>- 46-46-26 - секретар</p>
+			</div>
+			<div class="text">
+				<h2>IEN - Help</h2>
+				<p>- Luis Baker</p>
+				<p>- Max Brown</p>
+				<p>- Hey You Dont Forget About Lunch</p>
+			</div>
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</footer>
+	</div>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<script type="text/javascript">
+			window.addEventListener("scroll", function(){
+				const header = document.querySelector('header');
+				header.classList.toggle('sticky', window.scrollY > 0);
+			});
+		</script>
+		<script type="text/javascript">
+			function toggleForm(){
+				container = document.querySelector('.container');
+				section = document.querySelector('section');
+				container.classList.toggle('active');
+				section.classList.toggle('active');
+			}
+		</script>
+		<script type="text/javascript">
+			const open = document.getElementById('open')
+			const opacity = document.querySelector('.opacity')
+			const close = document.getElementById('close')
+	
+			open.addEventListener('click', () => {
+				opacity.classList.add('show')
+			});
+	
+			close.addEventListener('click', () => {
+				opacity.classList.remove('show')
+			})
+		</script>
+		<script>
+    	  var swiper = new Swiper(".mySwiper", {
+    	    effect: "coverflow",
+    	    grabCursor: true,
+    	    centeredSlides: true,
+    	    slidesPerView: "auto",
+    	    coverflowEffect: {
+    	      rotate: 0,
+    	      stretch: 0,
+    	      depth: 75,
+    	      modifier: 1.5,
+    	      slideShadows: false,
+    	    },
+    	    loop: true,
+    	  });
+    	</script>
+</body>
+</html>
